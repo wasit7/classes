@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  redis:
+    container_name: cs683_redis
+    build: ./redis
+    restart: always
+
+  web:
+    container_name: cs683_web
+    build: ./web
+    command: sh /web/run.sh
+    ports:
+      - 8080:5000
+    volumes:
+      - ./web:/web
+    depends_on:
+      - redis

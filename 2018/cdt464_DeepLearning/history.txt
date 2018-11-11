@@ -1,0 +1,133 @@
+    1  curl -fsSL get.docker.com -o get-docker.sh
+    2  sudo apt install curl
+    3  curl -fsSL get.docker.com -o get-docker.sh
+    4  sh get-docker.sh
+    5  sudo usermod -aG docker wasit
+    6  ls
+    7  sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+    8  sudo chmod +x /usr/local/bin/docker-compose
+    9  docker-compose --version
+   10  ls
+   11  cd Desktop/
+   12  ls
+   13  mkdir ai_contest
+   14  cd mk
+   15  cd ai_contest/
+   16  ls
+   17  nano run.sh
+   18  chmod 755 run.sh 
+   19  ./run.sh 
+   20  ls
+   21  mkdir demo
+   22  cd demo/
+   23  ls
+   24  /media/wasit/ADATA UFD/backup/fpo
+   25  history
+   26  cd Desktop/
+   27  cd ls
+   28  ls
+   29  cd mv ai_contest/ contest
+   30  mv ai_contest/ contest
+   31  ls
+   32  cd contest/
+   33  ls
+   34  ./run.sh 
+   35  sudo ./run.sh 
+   36  cat run.sh 
+   37  docker ps
+   38  sudo docker ps
+   39  sudo docker stop zeppelin
+   40  sudo docker ps
+   41  ls
+   42  cd Desktop/
+   43  ls
+   44  cd contest/
+   45  ls
+   46  ./run.sh 
+   47  cd
+   48  cd demo/
+   49  ls
+   50  cd fpo/
+   51  ls
+   52  docker-compose up
+   53  docker rm $(docker ps -a -q)
+   54  docker-compose up --build
+   55  docker rm $(docker ps -a -q)
+   56  cd ..
+   57  mkdir zp2
+   58  mv zp2 zp
+   59  cd zp/
+   60  ls
+   61  python
+   62  python3
+   63  which python
+   64  which python3
+   65  ls /usr/bin/
+   66  pip3
+   67  sudo apt install python3-pip
+   68  ls
+   69  cd demo/
+   70  ls
+   71  cd fpo/
+   72  ls
+   73  docker-compose up
+   74  sudo service network-manager restart
+   75  mkdir gitlab
+   76  ls
+   77  cd gitlab/
+   78  git clone https://github.com/wasit7/parallel_forest.git
+   79  sudo apt install git
+   80  git clone https://github.com/wasit7/parallel_forest.git
+   81  cd ..
+   82  cd demo/
+   83  ls
+   84  cd backup_fpo/
+   85  docker-compose up
+   86  clear
+   87  docker-compose up
+   88  cd demo/
+   89  ls
+   90  cd fpo/
+   91  ls
+   92  docker-compose up
+   93  nslookup www.idd-cdt.sci.tu.ac.th
+   94  pip
+   95  pip3
+   96  sudo apt install python3-pip
+   97  sudo apt install python3-dev
+   98  pip --help
+   99  pip3 --help
+  100  pip3 install --user pipenv
+  101  which python
+  102  which python3
+  103  which pip3
+  104  ls -la /usr/bin
+  105  which pipenv
+  106  pipenv
+  107  echo "PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
+  108  source ~/.bashrc
+  109  ls
+  110  cd gitlab/
+  111  ls
+  112  cd 
+  113  cd Desktop/
+  114  ls
+  115  pipenv
+  116  pip uninstall pipenv
+  117  pip3 install virtualenv
+  118  ls
+  119  mv cs409_DeepLearning501_zip/ cs409_DeepLearning
+  120  cd
+  121  cd Desktop/cs409_DeepLearning/
+  122  ls
+  123  mkdir env
+  124  virtualenv env
+  125  source env/bin/activate
+  126  ls
+  127  pip
+  128  python
+  129  pip install --upgrade pip
+  130  pip install jupyter
+  131  jupyter notebook
+  132  python -m pip install numpy scipy matplotlib pandas sympy nose
+  133  history > history.txt
